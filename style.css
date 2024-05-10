@@ -114,19 +114,20 @@ header.sticky .logo,header.sticky ul li a{
 .slider {
     display: flex;
     height: 40rem;
-    width: 100%;
+    width: calc(100vw*14);
+    background-size: cover;
     animation: slide 30s infinite ;
 }
 
 .slide {
-    width: 100%;
+    width: 100vw;
     height: 40rem;
     background-size: cover;
     flex: 0 0 auto;
 }
 
 img {
-    width: 100%;
+    width: 100vw;
     height: 46rem;
     display: flex;
     background-size: cover;
@@ -143,47 +144,42 @@ img {
     0%{
         transform: translateX(0%);
     }
-    2%{
-        transform: translateX(0%);
-    }
     10%{
-        transform: translateX(-100%);
+        transform: translateX(calc(-100vw));
     }
     17%{
-        transform: translateX(-100%);
+        transform: translateX(calc(-100vw));
     }
     23%{
-        transform: translateX(-200%);
+        transform: translateX(calc(-100vw*2));
     }
     34%{
-        transform: translateX(-200%);
+        transform: translateX(calc(-100vw*2));
     }
     40%{
-        transform: translateX(-300%);
+        transform: translateX(calc(-100vw*3));
     }
     51%{
-        transform: translateX(-300%);
+        transform: translateX(calc(-100vw*3));
     }
     57%{
-        transform: translateX(-400%);
+        transform: translateX(calc(-100vw*4));
     }
     68%{
-        transform: translateX(-400%);
+        transform: translateX(calc(-100vw*4));
     }
     74%{
-        transform: translateX(-500%);
+        transform: translateX(calc(-100vw*5));
     }
     85%{
-        transform: translateX(-500%);
+        transform: translateX(calc(-100vw*5));
     }
     91%{
-        transform: translateX(-600%);
+        transform: translateX(calc(-100vw*6));
     }
-    99.9%{
-        transform: translateX(-600%);
-    }
+    
     100%{
-        transform: translateX(0%);
+        transform: translateX(calc(-100vw*6));
     }
     
 
